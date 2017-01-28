@@ -1,0 +1,124 @@
+/** ### class for scrolling effect ### **/
+.fadeInBlock {
+    opacity:0;
+}
+
+
+/** ##### Document Wide ##### **/
+html {
+    height: 100%;
+    margin-top: 3em;
+    color: rgb(5,5,5);
+}
+
+ /** ##### Section 1 ##### **/
+h1 {
+    color: rgb(170,80,55);
+    font: bold 4em/.8em 'Ubuntu', sans-serif;
+    margin: .4em 0 .5em 0;
+    z-index: 1;
+    display: inline-block;
+}
+
+small {
+    z-index: 1;
+}
+
+#quote {
+    font: normal 1.8em 'Abel', sans-serif;
+    margin-left: -1em;
+    display: none;
+}
+
+
+cite {
+    font: bold .8em 'Ubuntu', sans-serif;
+}
+
+#main-img {
+    float: right;
+    margin: -9em -3.2em 2em 0;
+    padding-right: 0;
+    z-index: 0;
+}
+
+  /** ##### Main Body ##### **/
+h3 {
+    font: bold 3em 'Ubuntu', sans-serif;
+    text-align: left;
+}
+
+strong {
+    color: rgb(170,80,55); 
+}
+
+section {
+    font: normal 1.4em 'Abel', sans-serif;
+    text-align: justify;
+}
+
+
+h4 {
+   font: bold 1.2em 'Abel', sans-serif;
+    margin-bottom: .1em;
+}
+
+#small-img {
+    margin-left: 3em;
+}
+
+h2 {
+    padding: .5em;
+    font: bold 2em/.8em 'Ubuntu', sans-serif;
+    text-align: center;
+}
+
+/** ##### Video ##### **/
+
+.videoWrapperOuter {
+  max-width:640px; 
+  margin-left:auto;
+  margin-right:auto;
+}
+
+.videoWrapperInner {
+  float: none;
+  clear: both;
+  width: 100%;
+  position: relative;
+  padding-bottom: 50%;
+  padding-top: 25px;
+  height: 0;
+}
+
+.videoWrapperInner iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+
+footer {
+    font: normal 1.2em 'Abel', sans-serif;
+    margin: 3em auto 0 auto;
+    width: 100%;
+    text-align: center;
+    background-color: rgb(105,105,105);
+    color: rgb(232,232,232);
+}
+
+footer a {
+    color: rgb(255,165,0);
+}
+
+a:hover {
+    color: rgb(255,165,0);
+    font-weight: bold;
+     text-decoration:none; 
+     cursor:pointer;  
+}
+
+
