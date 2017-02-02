@@ -1,9 +1,3 @@
-/** ### class for scrolling effect ### **/
-.fadeInBlock {
-    opacity:0;
-}
-
-
 /** ##### Document Wide ##### **/
 html {
     height: 100%;
