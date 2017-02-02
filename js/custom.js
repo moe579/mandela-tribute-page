@@ -1,5 +1,5 @@
 $(document).ready(function() {
-   $('#quote').fadeIn(1500);
+   $('#quote').fadeIn(1000);
      
 });
 
