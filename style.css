@@ -1,13 +1,16 @@
 /** ##### Document Wide ##### **/
+
 html {
     height: 100%;
     margin-top: 3em;
-    color: rgb(5,5,5);
+    color: rgb(5, 5, 5);
 }
 
- /** ##### Section 1 ##### **/
+
+/** ##### Section 1 ##### **/
+
 h1 {
-    color: rgb(170,80,55);
+    color: rgb(170, 80, 55);
     font: bold 4em/.8em 'Ubuntu', sans-serif;
     margin: .4em 0 .5em 0;
     z-index: 1;
@@ -23,7 +26,6 @@ small {
     margin-left: -1em;
 }
 
-
 cite {
     font: bold .8em 'Ubuntu', sans-serif;
 }
@@ -35,14 +37,16 @@ cite {
     z-index: 0;
 }
 
-  /** ##### Main Body ##### **/
+
+/** ##### Main Body ##### **/
+
 h3 {
     font: bold 3em 'Ubuntu', sans-serif;
     text-align: left;
 }
 
 strong {
-    color: rgb(170,80,55); 
+    color: rgb(170, 80, 55);
 }
 
 section {
@@ -50,9 +54,8 @@ section {
     text-align: justify;
 }
 
-
 h4 {
-   font: bold 1.2em 'Abel', sans-serif;
+    font: bold 1.2em 'Abel', sans-serif;
     margin-bottom: .1em;
 }
 
@@ -66,52 +69,55 @@ h2 {
     text-align: center;
 }
 
+
 /** ##### Video ##### **/
 
 .videoWrapperOuter {
-  max-width:640px; 
-  margin-left:auto;
-  margin-right:auto;
+    max-width: 640px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .videoWrapperInner {
-  float: none;
-  clear: both;
-  width: 100%;
-  position: relative;
-  padding-bottom: 50%;
-  padding-top: 25px;
-  height: 0;
+    float: none;
+    clear: both;
+    width: 100%;
+    position: relative;
+    padding-bottom: 50%;
+    padding-top: 25px;
+    height: 0;
 }
 
 .videoWrapperInner iframe {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  margin-top: 2em;
-  margin-bottom: 2em;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    margin-top: 2em;
+    margin-bottom: 2em;
 }
+
+/** ##### Footer ##### **/
 
 footer {
     font: normal 1.2em 'Abel', sans-serif;
     margin: 3em auto 0 auto;
     width: 100%;
     text-align: center;
-    background-color: rgb(105,105,105);
-    color: rgb(232,232,232);
+    background-color: rgb(105, 105, 105);
+    color: rgb(232, 232, 232);
 }
 
 footer a {
-    color: rgb(255,165,0);
+    color: rgb(255, 165, 0);
 }
 
 a:hover {
-    color: rgb(255,165,0);
+    color: rgb(255, 165, 0);
     font-weight: bold;
-     text-decoration:none; 
-     cursor:pointer;  
+    text-decoration: none;
+    cursor: pointer;
 }
 
 
